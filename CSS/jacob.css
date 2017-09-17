@@ -1,8 +1,7 @@
-p {
-	font-style: italic;
-	font-weight: bold;
-}
+p {font-style: normal;font-weight: normal}
 
-li {
-font-size: 120%;
-}
+li {font-size: 120%}
+h1 {font-variant: small-caps; text-align: center; border: thick double gray}
+h2 {font-variant: small-caps}
+h3 {font-variant: small-caps}
+img {text-align: center; border: thick inset black} 
