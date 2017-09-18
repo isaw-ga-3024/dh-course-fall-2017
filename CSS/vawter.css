@@ -1,3 +1,66 @@
-p {
-	font-style: italic;
+html {
+    background: #fff;
 }
+
+body {
+    background: #fff;
+    color: #6d6e70;
+    font-family: "Helvetica Neue Light", Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 2em 2em 4em;
+}
+
+h1 {
+    text-align: center;
+    color: #494a4f;
+    font-weight: 100;
+    line-height: 1.3;
+    
+    
+}
+h2, h3, h4, h5, h6 {
+    color: #494a4f;
+    font-weight: 200;
+    line-height: .4;
+    letter-spacing: 1px;
+}
+p {
+    display: block;
+    text-align: left;
+	font-family: "Helvetica Neue Light", Helvetica;
+    font-size: 12px;
+    line-height: .2;
+}
+.subtitle {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: .2;
+}
+.discipline {
+    font-size: 11px;
+    font-weight: 100;
+    line-height: .5;
+}
+
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+section {
+  display: inline-block;
+  margin: 0 1.5%;
+  width: 63%;
+}
+
