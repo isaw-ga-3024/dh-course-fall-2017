@@ -1,7 +1,7 @@
 p {font-style: normal;font-weight: normal}
-
+body {background-color: silver}
 li {font-size: 120%}
-h1 {font-variant: small-caps; text-align: center; border: thick double gray}
+h1 {font-variant: small-caps; text-align: center;}
 h2 {font-variant: small-caps}
 h3 {font-variant: small-caps}
 img {text-align: center; border: thick inset black} 
